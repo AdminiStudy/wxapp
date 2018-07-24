@@ -1,0 +1,60 @@
+{
+  "config": {
+    "id": 176
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/index_v2/index2",
+    "pages/goods/goods",
+    "pages/test/test",
+    "pages/cart/cart",
+    "pages/dateControl/dateControl",
+    "pages/ucenter/orderDetail_v1/orderDetail_v1",
+    "pages/payResult/payResult",
+    "pages/auth/reset/reset",
+    "pages/ucenter/order_v1/order",
+    "pages/ucenter/index/index",
+    "pages/search/search",
+    "pages/ucenter/commonInfo/commonInfo",
+    "pages/ucenter/commonInfoAdd/commonInfoAdd",
+    "pages/pictureList/pictureList",
+    "pages/ucenter/card/card",
+    "pages/ucenter/coupon/coupon",
+    "pages/ucenter/index2/index",
+    "pages/index/noticePage",
+    "pages/index/informationPage"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "银旅通",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#f4f4f4"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#01a12e",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/images/ic_menu_choice_pressed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/ucenter/index2/index",
+        "iconPath": "static/images/ic_menu_me_nor.png",
+        "selectedIconPath": "static/images/ic_menu_me_pressed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,75 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.90",
+	"appid": "wxb16f9212a6f5f9ce",
+	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F0606",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "model1",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": 1,
+					"name": "goods",
+					"pathName": "pages/goods/goods",
+					"query": "goodsId=305",
+					"scene": "1044",
+					"shareInfo": {
+						"groupName": "测试模拟群2",
+						"shareName": "bXrMYrxBV3zELpLAzSaf-Q9rms6g5og5ZOsHiGZXsuw@cr4dev",
+						"shareKey": "etqrtDp0GmW82FhhQAAGIZ-6aN9YMmZDiKEWXuWCfBZYaCF0UWcinLyDYv4Udxg4e0pcqi0iqp-CSdfEODH6gw~~"
+					}
+				},
+				{
+					"id": 2,
+					"name": "开卡",
+					"pathName": "pages/ucenter/index2/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "model1",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": 4,
+					"name": "支付页面",
+					"pathName": "pages/payResult/payResult",
+					"query": "status=true&ticketNo=20180720165006000001",
+					"scene": "1011"
+				}
+			]
+		}
+	}
+}

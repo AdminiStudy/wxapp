@@ -1,0 +1,28 @@
+/**app.wxss**/
+.container {
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  font-family: 'Heiti';
+} 
+
+view,image,text,navigator{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+view,text{
+  font-family: 'Heiti';
+  font-size: 29rpx;
+  color: #333;
+
+  /* text-overflow: -o-ellipsis-lastline;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; */
+}
+
+.oneLine {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
